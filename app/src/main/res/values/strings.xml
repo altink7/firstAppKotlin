@@ -14,4 +14,5 @@
     <string name="menu_edit">Edit</string>
     <string name="menu_add">Add</string>
     <string name="menu_remove">Remove</string>
+    <string name="button_counter_text">You have pushed the button %d Times!</string>
 </resources>

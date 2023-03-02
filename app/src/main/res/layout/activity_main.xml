@@ -20,11 +20,53 @@
         android:textSize="30sp" />
 
     <Button
+        android:id="@+id/navigate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Navigate" />
+
+    <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
-        android:layout_height="66dp"
+        android:layout_height="75dp"
         android:layout_weight="1"
         android:text="Button" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/num1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="number1" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/num2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="number 2" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="30sp"/>
+
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:textSize="30sp"/>
 
     <!-- Menu Nav without imports -->
 
